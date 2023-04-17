@@ -13,9 +13,3 @@ S
 ,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
-u
-E模组集/第一章-法之眼失窃记/故事内容/1-翡翠谷镇.md,a\7\a77f0785709e4c5e441f14395b9f28c11893da19
-r
-B模组集/第一章-法之眼失窃记/故事内容/2-荆棘岭.md,4\f\4fbe689b78104686809b82521157ad3c1b04f60d
-r
-B模组集/第一章-法之眼失窃记/故事内容/3-霜鬃村.md,b\8\b806b8bff470fda2a66e41b050820b0ada6ede37
