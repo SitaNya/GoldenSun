@@ -1,10 +1,6 @@
 
 `
 0模组集/第一章-法之眼失窃记/大纲.md,4\b\4b44ad836bb9b6f51f64d3200d2931d816115524
-c
-3设定集/世界设定/城邦设定/宗教之城.md,1\6\16a81e8d3083ca56e92574520d7c00e07b9b2960
-c
-3设定集/世界设定/城邦设定/自由之城.md,7\c\7c9617aad93456b16946d69cc8b60c54004d3c00
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 ^
