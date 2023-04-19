@@ -1,6 +1,4 @@
 
-`
-0模组集/第一章-法之眼失窃记/大纲.md,4\b\4b44ad836bb9b6f51f64d3200d2931d816115524
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 ^
@@ -10,19 +8,11 @@ S
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 c
-3设定集/世界设定/城邦设定/律法之城.md,9\6\966316de0820cfe0ad1b1f2f203d49414eca7fca
-c
-3设定集/世界设定/城邦设定/力量之城.md,4\a\4a242afd0d2f534e0dd2955a6bbedcc7cefc6deb
-c
 3设定集/世界设定/城邦设定/罪恶之城.md,8\1\8179b2a8784bc55b079deb01fbda5508276a6344
-{
-K模组集/第一章-法之眼失窃记/故事内容/5-协商港的阴影.md,2\c\2cc43af08cbf493e0cb53b6a1fe93197621b80c4
 r
 B模组集/第一章-法之眼失窃记/故事内容/3-霜鬃村.md,b\8\b806b8bff470fda2a66e41b050820b0ada6ede37
 x
 H模组集/第一章-法之眼失窃记/故事内容/4-荒地的疑惑.md,1\b\1bd003069ddddba0c561a2a31facedf3ba53eb84
-\
-,设定集/故事设定/世界基本设定.md,b\f\bfc5da28768beac8e7411cdec7bf59529838e10a
 c
 3设定集/世界设定/城邦设定/自由之城.md,7\c\7c9617aad93456b16946d69cc8b60c54004d3c00
 c
