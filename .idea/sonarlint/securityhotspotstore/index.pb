@@ -9,10 +9,6 @@ S
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 c
 3设定集/世界设定/城邦设定/罪恶之城.md,8\1\8179b2a8784bc55b079deb01fbda5508276a6344
-r
-B模组集/第一章-法之眼失窃记/故事内容/3-霜鬃村.md,b\8\b806b8bff470fda2a66e41b050820b0ada6ede37
-x
-H模组集/第一章-法之眼失窃记/故事内容/4-荒地的疑惑.md,1\b\1bd003069ddddba0c561a2a31facedf3ba53eb84
 c
 3设定集/世界设定/城邦设定/宗教之城.md,1\6\16a81e8d3083ca56e92574520d7c00e07b9b2960
 c
