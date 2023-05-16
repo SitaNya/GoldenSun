@@ -9,6 +9,7 @@ layout: default
   {% for document in site.pages %}
     {% assign url = document.url | prepend: site.baseurl %}
     {% assign modifiedUrl = url | append: "/GoldenSun" %}
+    {% assign modifiedUrl = modifiedUrl | remove_first: "/GoldenSun" %}
     <li><a href="{{ modifiedUrl }}">{{ document.path }}</a></li>
   {% endfor %}
 </ul>
