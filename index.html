@@ -2,25 +2,25 @@
 layout: default
 ---
 
-<h1>黄金的太阳模组集1.1</h1>
+<h1>黄金的太阳模组集</h1>
 
 <h2>设定集</h2>
 <ul>
   {% for document in site.设定集 %}
-    <li><a href="{{ document.url }}">{{ document.basename }}</a></li>
+    <li><a href="{{ document.url }}">{{ document.path | remove_first:'设定集/' | remove:'.md' }}</a></li>
   {% endfor %}
 </ul>
 
 <h2>模组集</h2>
 <ul>
   {% for document in site.模组集 %}
-    <li><a href="{{ document.url }}">{{ document.basename }}</a></li>
+    <li><a href="{{ document.url }}">{{ document.path | remove_first:'模组集/' | remove:'.md' }}</a></li>
   {% endfor %}
 </ul>
 
 <h2>灵感记录</h2>
 <ul>
   {% for document in site.灵感记录 %}
-    <li><a href="{{ document.url }}">{{ document.basename }}</a></li>
+    <li><a href="{{ document.url }}">{{ document.path | remove_first:'灵感记录/' | remove:'.md' }}</a></li>
   {% endfor %}
 </ul>
