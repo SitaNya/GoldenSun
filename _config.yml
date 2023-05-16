@@ -9,12 +9,12 @@ collections:
   settings:
     output: true
     permalink: /settings/:path/
-  # 设定集:
-  #   output: true
-  #   permalink: /设定集/:path/
-  # 模组集:
-  #   output: true
-  #   permalink: /模组集/:path/
-  # 灵感记录:
-  #   output: true
-  #   permalink: /灵感记录/:path/
+  设定集:
+    output: true
+    permalink: /设定集/:path/
+  模组集:
+    output: true
+    permalink: /模组集/:path/
+  灵感记录:
+    output: true
+    permalink: /灵感记录/:path/
