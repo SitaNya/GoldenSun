@@ -1,37 +1,15 @@
+---
+layout: default
+---
+
 <h1>黄金的太阳模组集</h1>
 
-<h2>设定集</h2>
+<h2>目录</h2>
 <ul>
   {% for document in site.pages %}
-    {% assign encoded_path = document.path %}
-    {% if encoded_path contains '/%E8%AE%BE%E5%AE%9A%E9%9B%86/' %}
-      {% assign url = document.url | prepend: site.baseurl %}
-      {% assign modifiedUrl = url %}
-      <li><a href="{{ modifiedUrl }}">{{ document.path | remove_first: "/设定集/" }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
-
-<h2>模组集</h2>
-<ul>
-  {% for document in site.pages %}
-    {% assign encoded_path = document.path %}
-    {% if encoded_path contains '/%E6%A8%A1%E7%BB%84%E9%9B%86/' %}
-      {% assign url = document.url | prepend: site.baseurl %}
-      {% assign modifiedUrl = url %}
-      <li><a href="{{ modifiedUrl }}">{{ document.path | remove_first: "/模组集/" }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
-
-<h2>灵感记录</h2>
-<ul>
-  {% for document in site.pages %}
-    {% assign encoded_path = document.path %}
-    {% if encoded_path contains '/%E7%81%B5%E6%84%9F%E8%AE%B0%E5%BD%95/' %}
-      {% assign url = document.url | prepend: site.baseurl %}
-      {% assign modifiedUrl = url %}
-      <li><a href="{{ modifiedUrl }}">{{ document.path | remove_first: "/灵感记录/" }}</a></li>
-    {% endif %}
+    {% if {{ document.path }} contains '/设定集/' %}
+    {% assign url = document.url | prepend: site.baseurl %}
+    {% assign modifiedUrl = url %}
+    <li><a href="{{ modifiedUrl }}">{{ document.path }}</a></li>
   {% endfor %}
 </ul>
