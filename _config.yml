@@ -6,12 +6,15 @@ baseurl: "/GoldenSun" # Note: change this to match your repository name
 url: "https://SitaNya.github.io" # Note: change this to match your GitHub Pages URL
 
 collections:
-  设定集:
+  settings:
     output: true
-    permalink: /设定集/:path/
-  模组集:
-    output: true
-    permalink: /模组集/:path/
-  灵感记录:
-    output: true
-    permalink: /灵感记录/:path/
+    permalink: /settings/:path/
+  # 设定集:
+  #   output: true
+  #   permalink: /设定集/:path/
+  # 模组集:
+  #   output: true
+  #   permalink: /模组集/:path/
+  # 灵感记录:
+  #   output: true
+  #   permalink: /灵感记录/:path/
