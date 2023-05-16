@@ -2,7 +2,7 @@ theme: jekyll-theme-cayman
 
 title: 黄金的太阳
 description: 黄金的太阳模组集
-baseurl: "/GoldenSun" # Note: change this to match your repository name
+baseurl: "" # Note: change this to match your repository name
 url: "https://SitaNya.github.io" # Note: change this to match your GitHub Pages URL
 
 collections:
