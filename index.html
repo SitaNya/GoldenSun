@@ -6,9 +6,7 @@ layout: default
 
 <h2>目录</h2>
 <ul>
-  {% for collection in site.collections %}
-    {% for document in collection.docs %}
-      <li><a href="{{ site.baseurl }}{{ document.url }}">{{ document.path | remove_first: collection.label | remove_first: '/' | remove: '.md' }}</a></li>
-    {% endfor %}
+  {% for document in site.pages %}
+    <li><a href="{{ document.url }}">{{ document.path }}</a></li>
   {% endfor %}
 </ul>
