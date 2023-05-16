@@ -11,3 +11,27 @@
     {% endif %}
   {% endfor %}
 </ul>
+
+<h2>模组集</h2>
+<ul>
+  {% for document in site.pages %}
+    {% assign encoded_path = document.path | url_encode %}
+    {% if encoded_path contains '/%E6%A8%A1%E7%BB%84%E9%9B%86/' %}
+      {% assign url = document.url | prepend: site.baseurl %}
+      {% assign modifiedUrl = url %}
+      <li><a href="{{ modifiedUrl }}">{{ document.path | remove_first: "/模组集/" }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h2>灵感记录</h2>
+<ul>
+  {% for document in site.pages %}
+    {% assign encoded_path = document.path | url_encode %}
+    {% if encoded_path contains '/%E7%81%B5%E6%84%9F%E8%AE%B0%E5%BD%95/' %}
+      {% assign url = document.url | prepend: site.baseurl %}
+      {% assign modifiedUrl = url %}
+      <li><a href="{{ modifiedUrl }}">{{ document.path | remove_first: "/灵感记录/" }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
