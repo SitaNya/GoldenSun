@@ -7,7 +7,7 @@ layout: default
 <h2>设定集</h2>
 <ul>
   {% for document in site.pages %}
-    {% if document.path contains '/设定集/' %}
+    {% if document.url contains '/设定集/' %}
       {% assign url = document.url | prepend: site.baseurl %}
       {% assign modifiedUrl = url %}
       <li><a href="{{ modifiedUrl }}">{{ document.path | remove_first: "/设定集/" }}</a></li>
@@ -18,7 +18,7 @@ layout: default
 <h2>模组集</h2>
 <ul>
   {% for document in site.pages %}
-    {% if document.path contains '/模组集/' %}
+    {% if document.url contains '/模组集/' %}
       {% assign url = document.url | prepend: site.baseurl %}
       {% assign modifiedUrl = url %}
       <li><a href="{{ modifiedUrl }}">{{ document.path | remove_first: "/模组集/" }}</a></li>
@@ -29,7 +29,7 @@ layout: default
 <h2>灵感记录</h2>
 <ul>
   {% for document in site.pages %}
-    {% if document.path contains '/灵感记录/' %}
+    {% if document.url contains '/灵感记录/' %}
       {% assign url = document.url | prepend: site.baseurl %}
       {% assign modifiedUrl = url %}
       <li><a href="{{ modifiedUrl }}">{{ document.path | remove_first: "/灵感记录/" }}</a></li>
