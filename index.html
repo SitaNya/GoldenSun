@@ -7,7 +7,7 @@ layout: default
 <h2>设定集</h2>
 <ul>
   {% for document in site.collections['设定集'].docs %}
-    <li><a href="{{ document.url }}">{{ document.basename }}</a></li>
+    <li><a href="{{ document.url }}">{{ document.basename | remove: '.md' }}</a></li>
   {% endfor %}
 </ul>
 
@@ -17,7 +17,7 @@ layout: default
     <li>{{ collection.label }}</li>
     <ul>
       {% for document in collection.docs %}
-        <li><a href="{{ document.url }}">{{ document.basename }}</a></li>
+        <li><a href="{{ document.url }}">{{ document.basename | remove: '.md' }}</a></li>
       {% endfor %}
     </ul>
   {% endfor %}
@@ -26,6 +26,6 @@ layout: default
 <h2>灵感记录</h2>
 <ul>
   {% for document in site.collections['灵感记录'].docs %}
-    <li><a href="{{ document.url }}">{{ document.basename }}</a></li>
+    <li><a href="{{ document.url }}">{{ document.basename | remove: '.md' }}</a></li>
   {% endfor %}
 </ul>
