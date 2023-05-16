@@ -8,8 +8,9 @@ layout: default
 <ul>
   {% for document in site.pages %}
     {% if {{ document.path }} contains '/设定集/' %}
-    {% assign url = document.url | prepend: site.baseurl %}
-    {% assign modifiedUrl = url %}
-    <li><a href="{{ modifiedUrl }}">{{ document.path }}</a></li>
+      {% assign url = document.url | prepend: site.baseurl %}
+      {% assign modifiedUrl = url %}
+      <li><a href="{{ modifiedUrl }}">{{ document.path }}</a></li>
+    {% endif %}
   {% endfor %}
 </ul>
