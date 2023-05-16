@@ -6,7 +6,7 @@ layout: default
 
 <h2>设定集</h2>
 <ul>
-  {% assign settingsPages = site.pages | where: "path", "/设定集/" %}
+  {% assign settingsPages = site.pages | where: "path", "设定集" %}
   {% for page in settingsPages %}
     {% assign url = page.url | prepend: site.baseurl %}
     {% assign modifiedUrl = url %}
@@ -16,7 +16,7 @@ layout: default
 
 <h2>模组集</h2>
 <ul>
-  {% assign modulesPages = site.pages | where: "path", "/模组集/" %}
+  {% assign modulesPages = site.pages | where: "path", "模组集" %}
   {% for page in modulesPages %}
     {% assign url = page.url | prepend: site.baseurl %}
     {% assign modifiedUrl = url %}
@@ -26,7 +26,7 @@ layout: default
 
 <h2>灵感记录</h2>
 <ul>
-  {% assign inspirationPages = site.pages | where: "path", "/灵感记录/" %}
+  {% assign inspirationPages = site.pages | where: "path", "灵感记录" %}
   {% for page in inspirationPages %}
     {% assign url = page.url | prepend: site.baseurl %}
     {% assign modifiedUrl = url %}
