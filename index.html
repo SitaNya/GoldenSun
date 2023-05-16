@@ -13,13 +13,12 @@ layout: default
 
 <h2>模组集</h2>
 <ul>
-  {% for collection in site.collections['模组集'] %}
-    <li>{{ collection.label }}</li>
-    <ul>
+  {% for collection in site.collections %}
+    {% if collection.label == '模组集' %}
       {% for document in collection.docs %}
         <li><a href="{{ document.url }}">{{ document.basename | remove: '.md' }}</a></li>
       {% endfor %}
-    </ul>
+    {% endif %}
   {% endfor %}
 </ul>
 
