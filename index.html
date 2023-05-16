@@ -12,29 +12,3 @@ layout: default
     {% endfor %}
   {% endfor %}
 </ul>
-
-<!-- 
-<h2>设定集</h2>
-<ul>
-  {% for document in site.设定集 %}
-    <li><a href="{{ document.url }}">{{ document.basename | remove: '.md' }}</a></li>
-  {% endfor %}
-</ul>
-
-<h2>模组集</h2>
-<ul>
-  {% for collection in site.collections %}
-    {% if collection.label == '模组集' %}
-      {% for document in collection.docs %}
-        <li><a href="{{ document.url }}">{{ document.basename | remove: '.md' }}</a></li>
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
-</ul>
-
-<h2>灵感记录</h2>
-<ul>
-  {% for document in site.灵感记录 %}
-    <li><a href="{{ document.url }}">{{ document.basename | remove: '.md' }}</a></li>
-  {% endfor %}
-</ul> -->
