@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<h1>欢迎来到我的D&D模组项目！</h1>
+
+{% for collection in site.collections %}
+  <h2>{{ collection.label }}</h2>
+  <ul>
+    {% for document in collection.docs %}
+      <li><a href="{{ document.url }}">{{ document.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
