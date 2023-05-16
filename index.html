@@ -7,6 +7,8 @@ layout: default
 <h2>目录</h2>
 <ul>
   {% for document in site.pages %}
-    <li><a href="{{ document.url }}">{{ document.path }}</a></li>
+    {% assign url = document.url | prepend: site.baseurl %}
+    {% assign modifiedUrl = url | append: "/GoldenSun" %}
+    <li><a href="{{ modifiedUrl }}">{{ document.path }}</a></li>
   {% endfor %}
 </ul>
