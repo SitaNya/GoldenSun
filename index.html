@@ -4,6 +4,13 @@ layout: default
 
 <h1>黄金的太阳模组集3</h1>
 
+<h2>setting</h2>
+<ul>
+  {% for document in site.settings %}
+    <li><a href="{{ document.url }}">{{ document.basename | remove: '.md' }}</a></li>
+  {% endfor %}
+</ul>
+
 <h2>设定集</h2>
 <ul>
   {% for document in site.设定集 %}
