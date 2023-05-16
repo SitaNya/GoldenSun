@@ -2,13 +2,25 @@
 layout: default
 ---
 
-<h1>欢迎来到我的D&D模组项目！</h1>
+<h1>黄金的太阳模组集</h1>
 
-{% for collection in site.collections %}
-  <h2>{{ collection.label }}</h2>
-  <ul>
-    {% for document in collection.docs %}
-      <li><a href="{{ document.url }}">{{ document.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
+<h2>设定集</h2>
+<ul>
+  {% for document in site.collections['设定集'].docs %}
+    <li><a href="{{ document.url }}">{{ document.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<h2>模组集</h2>
+<ul>
+  {% for document in site.collections['模组集'].docs %}
+    <li><a href="{{ document.url }}">{{ document.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<h2>灵感记录</h2>
+<ul>
+  {% for document in site.collections['灵感记录'].docs %}
+    <li><a href="{{ document.url }}">{{ document.title }}</a></li>
+  {% endfor %}
+</ul>
