@@ -8,13 +8,13 @@ url: "https://SitaNya.github.io" # Note: change this to match your GitHub Pages 
 collections:
   settings:
     output: true
-    permalink: /settings/:path/
+    permalink: /GoldenSun/settings/:path/
   设定集:
     output: true
-    permalink: /设定集/:path/
+    permalink: /GoldenSun/设定集/:path/
   模组集:
     output: true
-    permalink: /模组集/:path/
+    permalink: /GoldenSun/模组集/:path/
   灵感记录:
     output: true
-    permalink: /灵感记录/:path/
+    permalink: /GoldenSun/灵感记录/:path/
