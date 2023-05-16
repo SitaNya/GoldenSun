@@ -4,13 +4,36 @@ layout: default
 
 <h1>黄金的太阳模组集</h1>
 
-<h2>目录</h2>
+<h2>目录1</h2>
 <ul>
   {% for document in site.pages %}
     {% if document.path contains '/设定集/' %}
       {% assign url = document.url | prepend: site.baseurl %}
       {% assign modifiedUrl = url %}
       <li><a href="{{ modifiedUrl }}">{{ document.path }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h2>目录2</h2>
+<ul>
+  {% for document in site.pages %}
+    {% if document.path contains '%E8%AE%BE%E5%AE%9A%E9%9B%86' %}
+      {% assign url = document.url | prepend: site.baseurl %}
+      {% assign modifiedUrl = url %}
+      <li><a href="{{ modifiedUrl }}">{{ document.path }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h2>目录3</h2>
+<ul>
+  {% for document in site.pages %}
+    {% assign encoded_path = document.path | url_encode %}
+    {% if encoded_path contains '%E8%AE%BE%E5%AE%9A%E9%9B%86' %}
+      {% assign url = document.url | prepend: site.baseurl %}
+      {% assign modifiedUrl = url %}
+      <li><a href="{{ modifiedUrl }}">{{ document.path | remove_first: "/设定集/" }}</a></li>
     {% endif %}
   {% endfor %}
 </ul>
